@@ -27,19 +27,7 @@ namespace Calculator
 
         private void button_Click(object sender, EventArgs e)
         {
-            Button btn = (Button)sender;
-            label1.Text = label1.Text + btn.Text;
-            if (label1.Text.Length > 4)
-            {  
-                label1.Font = new Font(label1.Font.FontFamily, 30);      
-            }
-
-            string str = label1.Text;
-            if (str.Length > 12)
-            {
-                str = str.Substring(0, 12);
-            }
-            label1.Text = str;
+            
       
             
         }
